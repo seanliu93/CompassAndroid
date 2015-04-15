@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\build\intermediates\exploded-aar\Compass_Android\ParseLoginUI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e326de394618a8b8c75468ceb37a7b5f522985b5">
+        <dex dex="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\build\intermediates\pre-dexed\debug\classes-7b3718e6bb53a05ddb0ba2482a30e82dcf61256a.jar" />
+    </item>
+    <item
         jar="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\libs\Parse-1.9.0.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -16,11 +23,11 @@
         <dex dex="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\build\intermediates\pre-dexed\debug\classes-8cf7ad5f4c384922f28fe6361e545ff6ea0bf104.jar" />
     </item>
     <item
-        jar="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\build\intermediates\exploded-aar\Compass_Android\ParseLoginUI\unspecified\classes.jar"
+        jar="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="76b5935677d779d5028e1482e9bb27b36ce7905d">
-        <dex dex="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\build\intermediates\pre-dexed\debug\classes-7b3718e6bb53a05ddb0ba2482a30e82dcf61256a.jar" />
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\build\intermediates\pre-dexed\debug\gson-2.2.4-7f6a9547502496248c6dc60b84cf7d3fa8f7daf1.jar" />
     </item>
     <item
         jar="C:\Users\seanliu93\Documents\GitHub\Compass_Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"

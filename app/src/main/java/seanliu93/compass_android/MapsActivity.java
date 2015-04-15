@@ -1,6 +1,7 @@
 package seanliu93.compass_android;
 
 import android.location.LocationManager;
+import android.os.AsyncTask;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
@@ -9,6 +10,11 @@ import com.google.android.gms.maps.LocationSource;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.parse.ParseUser;
+
+import java.net.URL;
+
+import HttpClient.*;
 
 public class MapsActivity extends FragmentActivity {
 
@@ -20,8 +26,7 @@ public class MapsActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-
-
+        new initializeContainersTask().execute();
 
         setUpMapIfNeeded();
     }
@@ -75,6 +80,23 @@ public class MapsActivity extends FragmentActivity {
         mMap.getUiSettings().setZoomControlsEnabled(true);
 
 
-        mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(42.33, 71)).title("Marker"));
+    }
+
+    private class initializeContainersTask extends AsyncTask<String, Void, String> {
+
+        protected String doInBackground(String... params) {
+            String response = HttpClient.createNewUserContainer();
+            response = HttpClient.createNewUUIDContainer(getApplicationContext(),true);
+            response = HttpClient.createNewUUIDContainer(getApplicationContext(),false);
+            response = HttpClient.initializeLocContainers(getApplicationContext());
+            return response;
+        }
+
+        protected void onPostExecute(String response) {
+
+            //System.out.print(response);
+        }
+
     }
 }

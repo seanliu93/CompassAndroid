@@ -6,12 +6,14 @@ package seanliu93.compass_android;
 
 import com.parse.ParseObject;
 import com.parse.ui.ParseLoginDispatchActivity;
+import java.io.IOException;
+import HttpClient.*;
+
 
 public class DispatchLogin extends ParseLoginDispatchActivity {
 
     @Override
     protected Class<?> getTargetClass() {
-
         return MapsActivity.class;
     }
 }

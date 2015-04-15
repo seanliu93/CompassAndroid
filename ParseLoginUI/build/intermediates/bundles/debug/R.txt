@@ -75,7 +75,7 @@ int drawable com_facebook_list_divider 0x7f02000c
 int drawable com_facebook_list_section_header_background 0x7f02000d
 int drawable com_facebook_loginbutton_silver 0x7f02000e
 int drawable com_facebook_logo 0x7f02000f
-int drawable com_facebook_picker_default_separator_color 0x7f02002e
+int drawable com_facebook_picker_default_separator_color 0x7f02002f
 int drawable com_facebook_picker_item_background 0x7f020010
 int drawable com_facebook_picker_list_focused 0x7f020011
 int drawable com_facebook_picker_list_longpressed 0x7f020012
@@ -106,6 +106,7 @@ int drawable com_parse_ui_facebook_login_logo 0x7f02002a
 int drawable com_parse_ui_parse_login_button_background_selector 0x7f02002b
 int drawable com_parse_ui_twitter_login_button_background_selector 0x7f02002c
 int drawable com_parse_ui_twitter_login_logo 0x7f02002d
+int drawable compass1 0x7f02002e
 int id app_logo 0x7f09001d
 int id com_facebook_body_frame 0x7f090015
 int id com_facebook_button_xout 0x7f090017
