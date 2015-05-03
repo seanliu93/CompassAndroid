@@ -24,10 +24,5 @@ public class Starter extends Application {
 
         Parse.setLogLevel(Parse.LOG_LEVEL_DEBUG);
 
-        // Optional - If you don't want to allow Twitter login, you can
-        // remove this line (and other related ParseTwitterUtils calls)
-        ParseTwitterUtils.initialize(getString(R.string.twitter_consumer_key),
-                getString(R.string.twitter_consumer_secret));
-
     }
 }

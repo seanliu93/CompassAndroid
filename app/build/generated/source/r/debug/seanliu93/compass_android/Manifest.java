@@ -9,6 +9,6 @@ package seanliu93.compass_android;
 
 public final class Manifest {
     public static final class permission {
-        public static final String MAPS_RECEIVE="seanliu93.testgooglemaps.permission.MAPS_RECEIVE";
+        public static final String MAPS_RECEIVE="seanliu93.compass_android.permission.MAPS_RECEIVE";
     }
 }
